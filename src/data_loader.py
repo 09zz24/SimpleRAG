@@ -12,7 +12,6 @@ class Reader:
         else:
             self.corpus = self._read_file(path)
 
-
     def _read_pdf(self, path):
         doc = fitz.open(path)
         chunks = []
